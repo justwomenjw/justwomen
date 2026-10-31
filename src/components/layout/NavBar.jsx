@@ -23,7 +23,7 @@ const [isOpen,setIsOpen]=useState(false);
 
 
   return (
-    <nav className="w-full bg-black text-white">
+    <nav className=" w-full bg-black text-white">
       <div className="flex items-center justify-between px-5 py-5">
         <div className="flex shrink-0 items-center gap-3">
           <img
@@ -33,11 +33,11 @@ const [isOpen,setIsOpen]=useState(false);
           />
           <div>
             <h1 className="font-bold">Just Women</h1>
-            <p className="text-yellow-500">Can Change Society</p>
+            <p className="text-[#D4AF63]">Can Change Society</p>
           </div>
         </div>
          <button onClick={()=>setIsOpen(!isOpen)} className='md:hidden'>
-            {isOpen ?(<XIcon size={40} duration={1} color="#f2bb31"/>):(<MenuIcon size={40} duration={1} color="#f2bb31"/>)}
+            {isOpen ?(<XIcon size={40} duration={1} color="#D4AF63"/>):(<MenuIcon size={40} duration={1} color="#D4AF63"/>)}
          </button>
 
             {/* ---menu in desktop---- */}
@@ -54,7 +54,7 @@ const [isOpen,setIsOpen]=useState(false);
               </li>
             ))}
           </ul>
-          <button type="button" className="shrink-0 rounded-2xl bg-amber-400 px-4 py-2 text-black hover:bg-amber-300">
+          <button type="button" className="shrink-0 rounded-2xl bg-[#D4AF63] px-4 py-2 text-black hover:bg-amber-300">
              En / دری</button>
         </div>
       </div>
