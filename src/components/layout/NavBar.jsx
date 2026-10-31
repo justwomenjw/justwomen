@@ -23,7 +23,7 @@ const [isOpen,setIsOpen]=useState(false);
 
 
   return (
-    <nav className="w-full bg-black text-white">
+    <nav className=" w-full bg-black text-white">
       <div className="flex items-center justify-between px-5 py-5">
         <div className="flex shrink-0 items-center gap-3">
           <img

@@ -1,6 +1,6 @@
 import NavBar from "../components/layout/NavBar";
 import headerImage from '../assets/images/headerImage.jpg';
-import image1 from '../assets/images/Woman writing notes at a table.jpg'
+// import image1 from '../assets/images/Woman writing notes at a table.jpg'
 import image2 from '../assets/images/Women in colorful headscarves gathered outdoors in sunlight.jpg';
 import HomeCard from "../components/cards/HomeCard";
 import LastCards from "../components/cards/LastCards";
