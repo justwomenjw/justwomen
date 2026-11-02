@@ -9,6 +9,9 @@ export default function About(){
         {title:'Vision',desc:`A future where women can tell their own stories, access learning opportunities, and participate meaningfully in society`,icon:<TelescopeIcon />},
         {title:'Values',desc:`editorial integrity, dignity, inclusion, respect, safety, transparency, and accountability`,icon:<GemIcon />}
     ]
+    // const teamCard=[
+    //     {title:'Founder Profile'}
+    // ]
     return(
         <>
             <div className="">
@@ -82,6 +85,100 @@ export default function About(){
                 </div>
             </div>
         </div>
-        </>
+        {/* =================== */}
+       
+<div className="grid grid-cols-1 md:grid-cols-2 my-15 mx-5 gap-8 md:gap-10">
+
+    {/* Left Section */}
+    <div className="md:ml-40 m-2 md:m-5">
+        <h2 className="text-[#D4AF63] text-xl">
+            HOW WE WORK
+        </h2>
+
+        <h2 className="font-serif text-3xl mt-3">
+            Our Principles
+        </h2>
+    </div>
+
+    {/* Right Section */}
+    <div className="w-full overflow-x-auto">
+
+        <table className="w-full min-w-[320px] border-separate border-spacing-x-3 md:border-spacing-x-5 border-spacing-y-8">
+
+            <tbody>
+
+                {/* Row 1 */}
+                <tr>
+                    <td className="w-1/2 border-t border-[#D4AF63] pt-5 pr-2 md:pr-4 align-top">
+                        <h3 className="font-serif font-bold mb-3">
+                            Editorial and Independence
+                        </h3>
+                        <p>
+                            Editorial decisions should be led by evidence, care and public interest - not outside pressure.
+                        </p>
+                    </td>
+
+                    <td className="w-1/2 border-t border-[#D4AF63] pt-5 pl-2 md:pl-4 align-top">
+                        <h3 className="font-serif font-bold mb-3">
+                            Informed Consent
+                        </h3>
+                        <p>
+                            People should understand how their words or images may be used before choosing to participate.
+                        </p>
+                    </td>
+                </tr>
+
+                {/* Row 2 */}
+                <tr>
+                    <td className="border-t border-[#D4AF63] pt-5 pr-2 md:pr-4 align-top">
+                        <h3 className="font-serif font-bold mb-3">
+                            Fact-Checking
+                        </h3>
+                        <p>
+                            We seek to verify information and distinguish what is known from what remains uncertain.
+                        </p>
+                    </td>
+
+                    <td className="border-t border-[#D4AF63] pt-5 pl-2 md:pl-4 align-top">
+                        <h3 className="font-serif font-bold mb-3">
+                            Privacy
+                        </h3>
+                        <p>
+                            Personal details should be handled with restraint and shared only when appropriate.
+                        </p>
+                    </td>
+                </tr>
+
+                {/* Row 3 */}
+                <tr>
+                    <td className="border-t border-[#D4AF63] pt-5 pr-2 md:pr-4 align-top">
+                        <h3 className="font-serif font-bold mb-3">
+                            Source Protection
+                        </h3>
+                        <p>
+                            We consider potential risks before identifying a source or publishing sensitive material.
+                        </p>
+                    </td>
+
+                    <td className="border-t border-[#D4AF63] pt-5 pl-2 md:pl-4 align-top">
+                        <h3 className="font-serif font-bold mb-3">
+                            Corrections
+                        </h3>
+                        <p>
+                            When an error is identified, we aim to review it and make a clear, appropriate correction.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+        {/* ============== */}
+        <div>
+            <h3 className="text-[#D4AF63]">PEOPLE AND PRIVACY</h3>
+            <h1 className="font-serif">Founder and Team</h1>
+            <p>The people behind this work deserve a choice about whether they appear here.We Don't publish names,portraites,or biographies without thier informed consent. </p>
+        </div>
+</>
     );
 }
