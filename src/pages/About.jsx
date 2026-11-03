@@ -1,6 +1,6 @@
 import NavBar from "../components/layout/NavBar";
 import imageAbout from '../assets/images/Women in colorful headscarves gathered outdoors in sunlight.jpg';
-import { LocateFixedIcon,TelescopeIcon ,GemIcon  } from "@animateicons/react/lucide";
+import { LocateFixedIcon,TelescopeIcon ,GemIcon, ArrowBigUpIcon  } from "@animateicons/react/lucide";
 export default function About(){
     
     const aboutDataCard =[
@@ -20,7 +20,7 @@ export default function About(){
         <header className="relative text-[#F8F7F4]">
                 <img className="bg-cover w-full h-120 brightness-50" src={imageAbout} alt="" />
                 <div className="absolute top-20 md:mx-40 mx-10 pb-10 md:w-150 w-100 ">
-                <hr className="bg-[#D4AF63] h-1  w-12"/>
+                <hr className="bg-[#D4AF63] h-1 border-none w-12"/>
                 <p className="text-[#D4AF63] my-5 font-bold">JUST WOMEN . FOR SOCIAL CHANGES</p>
                 <h1 className="text-6xl font-serif my-9">About Just Women</h1>
                 <h4>Creating space for Women’s,Voices,Stories and Oppurtunities.</h4><br />
@@ -33,7 +33,7 @@ export default function About(){
             <div className="text-[#080808] grid md:grid-cols-2 bg-[#F8F7F4] py-10 px-15 md:px-25 items-center">
                <div className="md:pl-15">
                   <h2 className="text-[#D4AF63] text-2xl font-serif ">WHO WE ARE </h2>
-                   <hr className="bg-[#D4AF63] my-3 h-1  w-12"/>
+                   <hr className="bg-[#D4AF63] my-3 h-1 border-none  w-12"/>
                </div>
                <div>
                   <h2 className="text-2xl py-2 font-serif">Our Story</h2>
@@ -174,11 +174,36 @@ export default function About(){
     </div>
 </div>
         {/* ============== */}
-        <div>
+        <div className="bg-[#F8F7F4] p-30"> 
             <h3 className="text-[#D4AF63]">PEOPLE AND PRIVACY</h3>
             <h1 className="font-serif">Founder and Team</h1>
             <p>The people behind this work deserve a choice about whether they appear here.We Don't publish names,portraites,or biographies without thier informed consent. </p>
         </div>
+
+
+        {/* -------------------- */}
+        <div className="grid md:grid-cols-2 m-auto py-20 px-10">
+            <div className="md:ml-20 mb-7">
+                <h2 className="text-[#D4AF63]">THE WORK HEAD</h2>
+                <hr className="bg-[#D4AF63] h-1 border-none  w-12"/>
+            </div>
+            <div>
+                <h1 className="font-serif font-bold text-xl ">Stories</h1>
+                <p>Indepedent reporting and storytelling are part of the space we hope to build.
+                    yo ask about this work or begin a conversation about sharing astory,contact us directly.
+                </p><br />
+                <button className="underline underline-[#D4AF63]">Start a conversation</button>
+            </div>
+        </div>
+        {/* ----bottom of page------ */}
+        <div className="bg-[#080808] text-[#FFFFFF] p-20 ">
+            <div className="md:w-160 space-y-10">
+                <hr className="bg-[#D4AF63] h-1 border-none  w-12"/>
+                <h1 className="md:text-5xl font-serif text-2xl">Hepl Us Build a More Just and Inclusive Future</h1>
+                <button className="bg-[#D4AF63] p-2 hover:bg-amber-400">Explore Stories</button>
+            </div>
+        </div>
+
 </>
     );
 }
